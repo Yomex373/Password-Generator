@@ -7,6 +7,7 @@ const password1 = document.getElementById("password1");
 const password2 = document.getElementById("password2");
 
 btn.addEventListener("click", function(){
+       
     let firstPassword = ""
     let secondPassword = ""
     for (let i = 0; i < 16; i++) {
